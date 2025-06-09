@@ -45,18 +45,7 @@ export default defineConfig({
       })
     ),
 
-    compress({
-      css: true,
-      html: {
-        removeAttributeQuotes: false,
-      },
-      img: false,
-      js: true,
-      svg: false,
-
-      logger: 1,
-    }),
-  ],
+   
 
   markdown: {
     syntaxHighlight: 'prism',
